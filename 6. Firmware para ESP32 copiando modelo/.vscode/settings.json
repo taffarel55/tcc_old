@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "stm32_app.h": "c",
+    "stm32f3xx_hal.h": "c",
+    "cstdarg": "cpp"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
+}
