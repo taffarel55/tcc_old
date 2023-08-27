@@ -15,8 +15,8 @@ void setup() {
     ml.begin(sine_model);
     
     Serial.println("------- DEBUG Desmos ---------");
-    for(int i=0; i<100; i++) {
-      float x = 2*3.14159*i/100;
+    for(int i=0; i<=100; i++) {
+      float x = 2*3.142*i/100;
       float y = sin(x);
       float input[1] = { x };
       float predicted = ml.predict(input);
